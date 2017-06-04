@@ -11,10 +11,12 @@ const redis   = require("redis");
 const redisStore = require('connect-redis')(session);
 const exec = require('child_process').exec;
 
-// Vars
+// set up vars
 const app = express();
 const redisurl = process.env.REDISCLOUD_URL;
 const redispass = process.env.REDISCLOUD_PASS;
+const clientId = process.env.DISCORD_CLIENT;
+const secret = process.env.DISCORD_SECRET;
 
 // Passport connection for login
 passport.serializeUser(function(user, done) {
