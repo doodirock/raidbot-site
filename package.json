@@ -15,7 +15,8 @@
     "express-session": "^1.15.3",
     "lodash": "^4.17.4",
     "passport": "^0.3.2",
-    "passport-discord": "^0.1.2"
+    "passport-discord": "^0.1.2",
+    "redis": "^2.7.1"
   },
   "keywords": [
     "node"
