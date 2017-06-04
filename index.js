@@ -1,7 +1,6 @@
 "use strict";
 
 // Express stuff
-const rp = require('request-promise'); //requires request to be installed but not imported
 const express = require('express');
 const session = require('express-session');
 const _ = require('lodash');
