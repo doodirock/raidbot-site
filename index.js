@@ -62,7 +62,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 // Index Route
-app.get('/', getGuild, function (req, res) {
+app.get('/', function (req, res) {
 	var useObj = req.user;
 	var myguild = req.guildinfo;
 	res.render('pages/index', {});
