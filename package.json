@@ -1,0 +1,17 @@
+{
+  "name": "raidbot-site",
+  "version": "0.0.1",
+  "description": "A website for raidbot.io",
+  "engines": {
+    "node": "8.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {},
+  "keywords": [
+    "node"
+  ],
+  "license": "MIT"
+}
